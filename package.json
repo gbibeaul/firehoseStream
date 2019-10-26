@@ -1,0 +1,32 @@
+{
+  "name": "firehosetest",
+  "version": "1.0.0",
+  "description": "This is a data streaming application ",
+  "scripts": {
+    "start:producer": "nodemon producer/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbibeaul/firehoseStream.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbibeaul/firehoseStream/issues"
+  },
+  "homepage": "https://github.com/gbibeaul/firehoseStream#readme",
+  "devDependencies": {
+    "@types/node": "^12.11.3",
+    "nodemon": "^1.18.10",
+    "tslint": "^5.20.0",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "aws-sdk": "^2.554.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.6.0",
+    "ts-node": "^8.0.3"
+  }
+}
